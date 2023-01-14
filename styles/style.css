@@ -1,0 +1,88 @@
+/* comon css */
+* {
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------
+header and nav styles
+---------------------- */
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1440px;
+    height: 800px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 16px;
+}
+
+/* ---------banner styles------------ */
+.banner{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info{
+    text-align: center;
+}
+.banner-title {
+    color: #131313;
+    font-size: 40px;
+    padding-bottom: 15px;
+
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    width: 120px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.banner-img{
+    margin-top: 20px;
+}
+.banner-img img{
+    width: 960px;
+    height: 400px;
+    border-radius: 8px;
+}
