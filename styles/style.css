@@ -13,18 +13,18 @@ header and nav styles
 header{
     background-color: rgba(255, 144, 14, 0.1);
     width: 1440px;
-    height: 800px;
+    height: 850px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 50px;
 }
 
-.nav-title {
+.title {
     font-weight: 700;
     font-size: 30px;
     color: #131313;
@@ -46,6 +46,7 @@ li a {
 }
 
 /* ---------banner styles------------ */
+
 .banner{
     margin-top: 80px;
     display: flex;
@@ -63,9 +64,9 @@ li a {
 
 }
 
-.banner-description {
+.description {
     color: #727272;
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 10px;
 }
 
@@ -82,7 +83,157 @@ li a {
     margin-top: 20px;
 }
 .banner-img img{
-    width: 960px;
-    height: 400px;
+    width: 1040px;
+    height: 450px;
     border-radius: 8px;
 }
+
+/* ---------------------
+main styles for css
+-------------------- */
+.container{
+    margin-bottom: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.first-titles{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.first-title-img img{
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+}
+.first-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.first-info{
+
+}
+.first-author1{
+    font-weight: 500;
+   font-size: 30px; 
+   color: #727272;
+}
+.first-author2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+.first-author3{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 30px;
+}
+/* ---------------
+secondary sections styles
+--------------- */
+.second-author{
+    font-size: 16px;
+}
+.second-img img{
+    width: 450px;
+    height: 650px;
+}
+.second-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+}
+.second-sub-title{
+    box-shadow: 2px 3px 5px 2px rgb(248, 246, 246);
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.btn-secondary{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -63px;
+    padding: 28px 28px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+}
+.btn-author1{
+    font-weight: 800;
+    font-size: 35px;
+}
+.btn-author2{
+    font-weight: 400;
+    font-size: 18px;
+}
+/* ------------------------
+third sections styles
+------------------------ */
+.third-title{
+    margin-bottom: 80px;
+}
+.third-author1{
+    font-weight: 800;
+    font-size: 27px;
+    padding-bottom: 12px;
+}
+.third-author{
+    font-weight: 800;
+    font-size: 20px;
+}
+.third-description{
+    font-weight: 500;
+    font-size: 16px;
+    color: #727272;
+}
+.third-box{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #FF900E;
+    padding: 15px;
+    border-radius: 8px;
+}
+.third-boxs{
+    display: flex;
+    justify-content: space-around;
+}
+/* ---------------------
+four sections styles
+-------------------- */
+.four-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.four-sponsor{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.sponsor img{
+    height: 40px;
+    width: 120px;
+    background: linear-gradient(gray gray);
+    mix-blend-mode: luminosity;
+}
+
+
+/* ------------footer styles-------------- */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    border: 0;
+    color: #424242;
+}
+
+
+
